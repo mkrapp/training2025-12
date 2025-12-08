@@ -215,3 +215,11 @@ git push upstream main
 - https://learngitbranching.js.org/ (Interactive tutorial)
 - https://ohshitgit.com/ (common git problems)
 - [Pro Git book](https://git-scm.com/book/en/v2)
+
+## checkout, reset, revert: What’s the difference 
+
+| Command    | What moves | Danger level | Use when... |
+|------------|------------|--------------|-------------|
+| `checkout` | HEAD only  | Safe | Exploring history |
+| `reset`    | Branch (+working) | Medium-high | Reshaping local work |
+| `revert`   | Nothing (new commit) | Safe | Undoing shared history |
