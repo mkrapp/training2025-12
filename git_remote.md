@@ -51,8 +51,8 @@ Thinking about your workflow this way helps you stay organized and avoid mistake
 
 ![](https://shrra.github.io/python-intermediate-development/fig/git-feature-branch.svg)
 
-> [!tip] Think of Git branches "throwaway".
-> Git's branching model encourages the creation of short-lived, isolated branches for new features, bug fixes, or experiments that are merged and then deleted.
+> [!TIP]
+> Think of Git branches "throwaway". Git's branching model encourages the creation of short-lived, isolated branches for new features, bug fixes, or experiments that are merged and then deleted.
 
 **Let’s try it out**:
 - `git branch <branch-name>` Create new branch `branch-name`
@@ -62,7 +62,8 @@ Thinking about your workflow this way helps you stay organized and avoid mistake
 
 ## Local vs remote repositories
 
-> [!tip] Every copy of a directory that is version controlled by git is in itself a git repository.
+> [!TIP]
+> Every copy of a directory that is version controlled by git is in itself a git repository.
 
 Let’s explore some (remote) repositories on GitHub (https://github.com/explore).
 
@@ -89,8 +90,8 @@ We will now clone an existing (Github) repository, https://github.com/mkrapp/tra
 - `git clone https://github.com/mkrapp/training2025-12.git`
 - Create your own branch, make additional commits and push multiple times
 
-> [!warning] You won’t be able to push your local changes to the remote
-> unless you are a collaborator. But you can “fork” the repository instead and become the “owner” of that fork.
+> [!WARNING]
+> You won’t be able to push your local changes to the remote unless you are a collaborator. But you can “fork” the repository instead and become the “owner” of that fork.
 
 **Let’s try it out**:
 - `git push -u origin <your-branch>`
