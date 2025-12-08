@@ -14,17 +14,30 @@ By now, you have learned why we need `git add ...` and  `git commit ...`.
 
 A few questions to test your understanding:
 
-> [!faq]- What’s a commit hash like `f523039...` that we can see in `git log`?
-> a unique identifier assigned to each commit in a Git repository
+<details> 
+  <summary>Q1: What’s a commit hash like `f523039...` that we can see in `git log`? </summary>
+   A1: a unique identifier assigned to each commit in a Git repository
+</details>
 
-> [!faq]- What is the “stage”?
-> an intermediate space where you prepare changes from your working directory before committing them to your local Git repository
+<details> 
+  <summary>Q2: What’s the default name of the main branch?</summary>
+   A2: `main`
+</details>
 
-> [!faq]- What is “HEAD”?
-> a special pointer that indicates the currently active commit in your repository
+<details> 
+  <summary>Q3: What is the “stage”?</summary>
+   A3: an intermediate space where you prepare changes from your working directory before committing them to your local Git repository
+</details>
 
-> [!faq]- How do figure out the branch I’m working on? What’s the default name of the main branch?
-> check the first line in `git status` or look for `*` when typing `git branch`
+<details> 
+  <summary>Q4: What is “HEAD”?</summary>
+   A4: a special pointer that indicates the currently active commit in your repository
+</details>
+
+<details> 
+  <summary>Q5: How do figure out which branch I’m working on?</summary>
+   A5: check the first line in `git status` or look for `*` when typing `git branch`
+</details>
 
 ## Branching and Merging
 
