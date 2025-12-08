@@ -2,7 +2,9 @@
 
 - Recap
 - Branching and Merging
-
+- Pushing, Pulling, Fetching
+- Cloning
+- Resolving Merge Conflicts
 
 ## Recap
 
@@ -11,9 +13,6 @@
 By now, you have learned why we need `git add ...` and  `git commit ...`.
 
 A few questions to test your understanding:
-
-
-
 
 > [!faq]- What’s a commit hash like `f523039...` that we can see in `git log`?
 > a unique identifier assigned to each commit in a Git repository
@@ -98,6 +97,14 @@ Using the `-u` switch with the `git push` command is a handy shortcut for: (1) c
 You will commit locally, then push your branch for the first time (introduce `git push -u origin feature-<name>`).
 - Show how others can pull and see new branches, then check out each other’s branches.
 
+## Merge with conflicts
+
+We are all working on the same repo, on our own branch. We will change a few things (because we can), commit those revisions, and push them to our remote branch (not main!).
+
+Some people will add stuff to same file. Other will add new files. And still other will modify existing files.
+
+The maintainer’s job is to merge all those changes back into the `main` branch.
+
 ## Merge with conflicts (a real-world example)
 
 - Goal: Experience merge and conflict resolution in a safe setting.
@@ -164,8 +171,6 @@ def main():
         print("'Mark task as done' not implemented!")
 ```
 
----
-
 ```
 git add .
 git commit -m "Improve menu and numeric choices”
@@ -203,7 +208,6 @@ git add task_tracker.py
 git commit -m "Resolve merge conflicts"
 git push upstream main
 ```
-
 
 ## Additonal sources
 
