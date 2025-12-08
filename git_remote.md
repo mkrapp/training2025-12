@@ -15,13 +15,13 @@ By now, you have learned why we need `git add ...` and  `git commit ...`.
 A few questions to test your understanding:
 
 <details> 
-  <summary>Q1: What’s a commit hash like `f523039...` that we can see in `git log`? </summary>
+  <summary>Q1: What’s a commit hash like <code>f523039...</code> that we can see in <code>git log</code>? </summary>
    A1: a unique identifier assigned to each commit in a Git repository
 </details>
 
 <details> 
   <summary>Q2: What’s the default name of the main branch?</summary>
-   A2: `main`
+   A2: <code>main</code>
 </details>
 
 <details> 
@@ -36,7 +36,7 @@ A few questions to test your understanding:
 
 <details> 
   <summary>Q5: How do figure out which branch I’m working on?</summary>
-   A5: check the first line in `git status` or look for `*` when typing `git branch`
+   A5: check the first line in <code>git status</code> or look for <code>*</code> when typing <code>git branch</code>
 </details>
 
 ## Branching and Merging
