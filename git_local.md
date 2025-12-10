@@ -142,7 +142,8 @@ Check it worked:
 
 ## Create repository
 
-> [!TIP] I recommend creating a directory called 'respositories' in your home directly
+> [!TIP]
+> I recommend creating a directory called 'respositories' in your home directly
 
 Mac: `cd ~` Windows: `cd C:\Users\yourUserName`
 
@@ -196,7 +197,7 @@ Check what Git sees: 
 
 `git status `
 
-> [!NOTE] What do you see here? What colour is it?
+*What do you see here? What colour is it?*
 
 Stage the file (prepare it for commit):
 
@@ -204,8 +205,7 @@ Stage the file (prepare it for commit):
 
 `git status`
 
-> [!NOTE]
-> What has changed?
+*What has changed?*
 
 --------------------------------------------------------
 
@@ -228,8 +228,7 @@ Exit:
 
 `git status`
 
-> [!NOTE]
-> Now what has changed?
+*Now what has changed?*
 
 --------------------------------------------------------
 
@@ -267,15 +266,13 @@ Stage and commit: 
 
 `git add README.md`
 
-> [!TIP]
-> If your commit message is one line, you can use `-m` to add commit message in one command
+*If your commit message is one line, you can use `-m` to add commit message in one command:*
 
 `git commit -m "Add learning section to README"`
 
 Check the log:
 
-> [!TIP]
-> If you want a simplified view of commits, you can indicate one line
+*If you want a simplified view of commits, you can indicate one line:*
 
 `git log --oneline`
 
@@ -311,10 +308,9 @@ Stage README.md:
 
 `git status`
 
-> [!NOTE]
-> Notice what changes here, and the colour of the files
+*Notice what changes here, and the colour of the files*
 
-You realise you were told by your manager you have to include your name in the README.md file. To do this you can undo the staging, add your name to the file and stage it again.
+You realise, actually, you forgot that learning git is REALLY fun. You need to unstage the file, make that change, and re-stage it.
 
 `git restore --staged README.md`
 
@@ -326,8 +322,7 @@ Add your name to the file e.g.:
 
     Learning git is really fun
  
-> [!TIP]
-> Now, if you have multiple files you want to add, you can either do so using their separate names, or you can use a shortcut funtion.
+*If you have multiple files you want to add, you can either do so using their separate names, or you can use a shortcut funtion*
 
 `git add README.md test.py`
 
@@ -363,15 +358,15 @@ You could try:
 
 # Activiy 4: Fixing Common Mistakes
 
-> [!TIP]
+> [!IMPORTANT]
 > There are no real mistakes in Git. It is made for handling errors, breaking things and undoing things
 
 --------------------------------------------------------
 
 ## Scenario 1: I staged the wrong file, how do I unstage something?
 
-> [!TIP]
-> We use this command earlier when we wanted to add our name to the README file!
+> [!NOTE]
+> We used this command earlier when we wanted to add 'really' to our README file!
 
 Create a temporary file in text editor or command line
 
